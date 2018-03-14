@@ -4,7 +4,7 @@ const serverApp = express();
 const PORT = process.env.PORT || 5000; // process.env.PORT is necessary for Heroku deployment
 
 serverApp.get('/', (req, res) => {
-    res.send('Hello');
+    res.send('Something brand new');
 });
 
 serverApp.listen(PORT, () => {
